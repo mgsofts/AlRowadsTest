@@ -1,0 +1,23 @@
+{
+    "name": "mgsoft/alrowads-test",
+    "authors": [
+        {
+            "name": "Mohamed ghareeb",
+            "email": "mohamedigm@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "AlRowadsTest\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AlRowadsTestTest\\": "test/"
+        }
+    }
+}
